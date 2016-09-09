@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--     MainActivity -->
+    <string name="app_name">TamUtils</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="layout_animation">布局动画</string>
+    <string name="layout_slide_listview">滑动冲突</string>
+    <string name="btn04_checkinput">输入校验</string>
+<!--     AnimationActivity -->
+    <string name="add_btn">添加按钮</string>
+    <string name="type_appenring">APPEARING</string>
+    <string name="type_change_appenring">CHANGE_APPEARING</string>
+    <string name="type_disappearing">DISAPPEARING</string>
+    <string name="type_change_disappearing">CHANGE_DISAPPEARING</string>
+    <string name="animation_view">View</string>
+    <string name="animation_frame">Frame</string>
+    <string name="animation_object">ObjAnim</string>
+    <string name="animation_value">ValueAnim</string>
+    <string name="animation_xml">XmlAnim</string>
+ <!--     ListViewCalendarActivity -->     
+	<string name="sans_serif" translatable="false">sans-serif</string>
+	<string name="listview_calendar">日历</string>
+ <!--     InputCheckActivity --> 
+ 	<string name="form_field_1">必填选项|手机号码</string>
+ 	<string name="form_field_2">信用卡号</string>
+ 	<string name="form_field_3">必填选项|仅数字|最大长度20</string> 	
+ 	<string name="form_field_4">必填选项|电子邮件</string>
+ 	<string name="form_field_5">必填选项|必须与“电子邮件”输入框相同</string>
+ 	<string name="form_field_6">主机地址</string>
+ 	<string name="form_field_7">网址</string>
+ 	<string name="form_field_8">最大长度为5</string>
+ 	<string name="form_field_9">最小长度为4</string>
+ 	<string name="form_field_10">长度区间[4,8]</string>
+ 	<string name="form_field_11">非空值</string>
+ 	<string name="form_field_12">数值</string>
+ 	<string name="form_field_13">最大值：100</string>
+ 	<string name="form_field_14">最小值：20</string>
+ 	<string name="form_field_15">最值区间：[18,30]</string>
+ 	<string name="form_field_16">17位的车架号</string>
+ 	<string name="form_field_17">提交校验</string>
+ 	
+	<string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="LOADING">Loading</string>
+</resources>

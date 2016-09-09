@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button android:id="@+id/anim_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/animation_view"
+            android:layout_weight="1"/>
+        <Button android:id="@+id/anim_frame"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/animation_frame"
+            android:layout_weight="1"/>
+        <Button android:id="@+id/anim_object"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/animation_object"
+            android:layout_weight="1"/>
+        <Button android:id="@+id/anim_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/animation_value"
+            android:layout_weight="1"/>
+        <Button android:id="@+id/anim_xml"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/animation_xml"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <ImageView android:id="@+id/animation_image"
+        android:layout_width="@dimen/activity_horizontal_margin"
+        android:layout_height="@dimen/activity_vertical_margin"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/ic_launcher"
+        android:contentDescription="@null"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addBtn"
+        android:text="@string/add_btn" />
+
+    <CheckBox
+        android:id="@+id/id_appear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/type_appenring" />
+
+    <CheckBox
+        android:id="@+id/id_change_appear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/type_change_appenring" />
+
+    <CheckBox
+        android:id="@+id/id_disappear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/type_disappearing" />
+
+    <CheckBox
+          android:id="@+id/id_change_disappear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/type_change_disappearing" />
+
+</LinearLayout>
